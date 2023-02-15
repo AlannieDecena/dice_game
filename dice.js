@@ -1,3 +1,19 @@
-let dice = Math.floor(Math.random() * 6);
 
-consolel.log(dice);
+//let ramdom = (Math.random() * 10);
+//console.log(ramdom)
+
+
+//function roll () {
+    //let ramdom = Math.floor(Math.ramdom());
+
+//}
+//console.log(ramdom)  
+
+
+
+function rollDice6 () {
+    dice6 = Math.floor((Math.random()*6+1));
+    
+    document.getElementById("dicelable").innerHTML = dice6;
+
+}
