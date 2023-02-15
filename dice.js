@@ -11,12 +11,27 @@
 
 
 
-function rollDice6 () {
-    dice6 = Math.floor((Math.random()*6+1));
-    dice10 = Math.floor((Math.random()*10+1));
+
     
-    document.getElementById("dicelable").innerHTML = dice6;
-    document.getElementById("dicelable").innerHTML = dice10;
-}
+    
+   function rollDice() {
+    a = document.getElementById('dropDown');
+    value = a.value; 
+ 
+        if (value === 6) {
+              dice6 = Math.floor((Math.random()*6+1));
+              document.getElementById("diceNum").innerHTML = dice6;
+          
+          }
+              
+          else if (value === 10) {
+          dice10 = Math.floor((Math.random()*10+1)); 
+          document.getElementById("diceNum").innerHTML = dice10;
+      }
+    }
+  
+
+    
 
 
+   

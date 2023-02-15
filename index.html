@@ -13,14 +13,13 @@
     
         <label id="dice">how many sides?</label>
         <br><br>
-    <select name="dieOption" id="dieOption">
-        <option value="die6" id="dice6">6</option>
-        <option value="die10" id="dice10">10</option>
-    </select>
-        
+        <select id="dropDown" onchange= "rollDice()">
+            <option value="die6">6</option>
+            <option value="die10">10</option>
+        </select>
 
-        <p id="dicelable">1</p>
-        <button type="button" onclick="rollDice6()">Roll Dice</button>
+        <p id="diceNum" >1</p>
+        <button type="button" onclick="rollDice()" id="button">Roll Dice</button>
         
 
 
