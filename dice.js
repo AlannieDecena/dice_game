@@ -7,7 +7,12 @@
 
 // }
 
+// function ranDom (diceNum) {
 
+//     dice10 = Math.floor((Math.random()*diceNum-1));
+//     return dice10
+
+// }
 
     
    function rollDice() {
