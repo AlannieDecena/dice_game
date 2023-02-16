@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <link rel="stylesheet" href="dice.css">
+</head>
+<body>
+    <h1>Dice Roll
+
+    <img src="https://www.richardhughesjones.com/wp-content/uploads/2019/01/dice-gif.gif" alt="diceLeft.gif">
+    </h1>
+
+
+    <p id="diceNum">1</p>
+        <label id="dice">how many sides?</label>
+    
+        <select id="dropDown" onchange= "rollDice()">
+            <option value="die6">6</option>
+            <option value="die10">10</option>
+        </select>
+
+        <button type="button" onclick="rollDice()" id="button">Roll Dice</button>
+        
+
+
+
+<script src="dice.js"></script>
+</body>
+</html>
